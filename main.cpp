@@ -5,7 +5,7 @@ int main(int argc, char** argv) {
 	int nElementi;
 	do
 	{
-		cout << "Inserire il numero di elementi che si desiderano creare nell'array(da 1 a 10)): ";
+		cout << "Inserire il numero di elementi che si desiderano creare nell'array(da 1 a 10): ";
 		cin >>nElementi;
 		
 		if(nElementi > 10 || nElementi < 1)
@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 	
 	for(int i = 0; i < nElementi; i++)
 	{
-		cout << "Inserire il " << i+1 << "° valore: ";
+		cout << "Inserire il " << i+1 << "Â° valore: ";
 		cin >> numeri[i];
 		
 		if(i%2== 0)
