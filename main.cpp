@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 	
 	for(int i = 0; i < nElementi; i++)
 	{
-		cout << "Inserire il " << i+1 << "° valore: ";
+		cout << "Inserire il " << i+1 << "o valore: ";
 		cin >> numeri[i];
 		
 		if(i%2== 0)
